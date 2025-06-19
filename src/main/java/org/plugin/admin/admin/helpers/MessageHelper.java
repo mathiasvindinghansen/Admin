@@ -7,14 +7,12 @@ import net.kyori.adventure.text.Component;
 
 import org.plugin.admin.admin.Admin;
 
-import java.util.Arrays;
-
 public class MessageHelper {
     public static void sendDefinedMessage(CommandSender commandSender, String path, String... args) {
         String message = Admin.LANGUAGE_FILE.getString(path);
 
         if (message != null) {
-            message = String.format(message, Arrays.toString(args).replaceAll("[\\[\\](){}]",""));
+            message = String.format(message, (Object[])args);
 
             final Component component = MiniMessage.miniMessage().deserialize(message);
             commandSender.sendMessage(component);
