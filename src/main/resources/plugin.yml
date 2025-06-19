@@ -11,3 +11,8 @@ commands:
 
   feed:
     permission: admin.feed
+
+  gamemode:
+    permission: admin.gamemode
+    aliases:
+      - gm

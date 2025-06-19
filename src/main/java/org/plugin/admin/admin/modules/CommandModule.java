@@ -8,7 +8,7 @@ import org.plugin.admin.admin.Admin;
 import java.util.Objects;
 
 public abstract class CommandModule {
-    public String label;
+    public String label; //command name
     public int minArgs;
     public int maxArgs;
 

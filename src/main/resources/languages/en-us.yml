@@ -1,4 +1,9 @@
+errors:
+  invalid_player: "<#ffffff>%s <#ed394b>is not a valid player or not online."
+  invalid_parameters: "<#ed394b>Invalid parameters for /<#ffffff>%s<#ed394b>."
+
 commands:
   heal: "<#81ECFF>You were healed."
   feed: "<#81ECFF>Your appetite has been sated."
-  fly: "<#81ECFF>Set flight mode <#ffffff>%s<#81ECFF>."
+  fly: "<#81ECFF>Set flight mode <#ffffff>%s<#81ECFF> for <#ffffff>%s<#81ECFF>."
+  gamemode: "<#81ECFF>Set game mode <#ffffff>%s<#81ECFF> for <#ffffff>%s<#81ECFF>."

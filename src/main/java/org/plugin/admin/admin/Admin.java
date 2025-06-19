@@ -41,5 +41,6 @@ public final class Admin extends JavaPlugin {
         new heal();
         new feed();
         new fly();
+        new gamemode();
     }
 }
