@@ -1,0 +1,4 @@
+commands:
+  heal: "<#81ECFF>You were healed."
+  feed: "<#81ECFF>Your appetite has been sated."
+  fly: "<#81ECFF>Set flight mode <#ffffff>%s<#81ECFF>."

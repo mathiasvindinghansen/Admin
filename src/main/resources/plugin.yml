@@ -1,0 +1,13 @@
+name: Admin
+version: '1.0'
+main: org.plugin.admin.admin.Admin
+api-version: '1.21'
+commands:
+  fly:
+    permission: admin.fly
+
+  heal:
+    permission: admin.heal
+
+  feed:
+    permission: admin.feed

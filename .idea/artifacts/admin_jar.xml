@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="admin:jar">
+    <output-path>$USER_HOME$/Documents/Minecraft/Paper/plugins</output-path>
+    <root id="archive" name="admin.jar">
+      <element id="module-output" name="admin" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/plugin.yml" />
+    </root>
+  </artifact>
+</component>
