@@ -15,7 +15,7 @@ public class heal extends CommandModule {
 
     @Override
     public void run(CommandSender commandSender, String[] args) {
-        if (commandSender instanceof Player player) {
+        if (commandSender instanceof final Player player) {
             final AttributeInstance MAX_HEALTH = player.getAttribute(Attribute.MAX_HEALTH);
 
             if (MAX_HEALTH != null) {

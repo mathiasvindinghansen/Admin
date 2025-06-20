@@ -16,3 +16,8 @@ commands:
     permission: admin.gamemode
     aliases:
       - gm
+
+  reloadconfig:
+    permission: admin.reloadconfig
+    aliases:
+      - rlcfg

@@ -13,7 +13,7 @@ public class feed extends CommandModule {
 
     @Override
     public void run(CommandSender commandSender, String[] args) {
-        if (commandSender instanceof Player player) {
+        if (commandSender instanceof final Player player) {
             player.setSaturation(20);
             player.setFoodLevel(20);
 

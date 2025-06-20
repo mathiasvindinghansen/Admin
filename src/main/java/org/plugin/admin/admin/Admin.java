@@ -26,12 +26,13 @@ public final class Admin extends JavaPlugin {
     }
 
     private void registerResources() {
-        saveResource("config.yml", true);
+        saveResource("config.yml", false);
         saveResource("languages/en-us.yml", true);
+        saveResource("languages/da-dk.yml", true);
 
         final String language = getConfig().getString("language");
 
-        final File file = new File(PLUGIN.getDataFolder(), "languages/" + language + ".yml"); //piece of shit fuck why do you work now but not before
+        final File file = new File(PLUGIN.getDataFolder(), "languages/" + language + ".yml");
         LANGUAGE_FILE = YamlConfiguration.loadConfiguration(file);
 
         saveDefaultConfig();
@@ -42,5 +43,6 @@ public final class Admin extends JavaPlugin {
         new feed();
         new fly();
         new gamemode();
+        new reloadconfig();
     }
 }
