@@ -1,10 +1,12 @@
 errors:
   invalid_player: "<#ffffff>%s <#ed394b>er ikke en gyldig spiller eller er ikke online."
-  invalid_parameters: "<#ed394b>Forkerte parametre for /<#ffffff>%s<#ed394b>."
+  invalid_player_wildcard: "<#ed394b>En af de specifierede spillere er ikke en gyldig spiller eller er ikke online."
+  invalid_parameters: "<#ed394b>Forkerte parametre for <#ffffff>/%s<#ed394b>."
 
 commands:
   heal: "<#81ECFF>Du blev helet."
   feed: "<#81ECFF>Din appetit er blevet tilfredsstillet."
   fly: "<#81ECFF>Satte flytilstand til <#ffffff>%s<#81ECFF> for <#ffffff>%s<#81ECFF>."
   gamemode: "<#81ECFF>Satte spiltilstand til <#ffffff>%s<#81ECFF> for <#ffffff>%s<#81ECFF>."
-  reloadconfig: "<#81ECFF>Genindlæste konfigurationen."
+  reloadconfig: "<#81ECFF>Genindlæste konfiguration."
+  teleport: "<#81ECFF>Teleporterer <#ffffff>%s <#81ECFF>til <#ffffff>%s<#81ECFF>."

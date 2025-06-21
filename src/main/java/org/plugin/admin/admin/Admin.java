@@ -44,5 +44,6 @@ public final class Admin extends JavaPlugin {
         new fly();
         new gamemode();
         new reloadconfig();
+        new teleport();
     }
 }

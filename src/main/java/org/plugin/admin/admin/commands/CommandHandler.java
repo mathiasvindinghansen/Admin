@@ -4,6 +4,7 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.Command;
 
+import org.plugin.admin.admin.helpers.MessageHelper;
 import org.plugin.admin.admin.modules.CommandModule;
 import org.plugin.admin.admin.Admin;
 
@@ -18,6 +19,8 @@ public class CommandHandler implements CommandExecutor {
 
             if (args.length >= commandModule.minArgs && (args.length <= commandModule.maxArgs || commandModule.maxArgs == -1)) {
                 commandModule.run(commandSender, args);
+            } else {
+                MessageHelper.sendDefinedMessage(commandSender, "errors.invalid_parameters", label);
             }
         }
 

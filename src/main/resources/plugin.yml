@@ -21,3 +21,8 @@ commands:
     permission: admin.reloadconfig
     aliases:
       - rlcfg
+
+  teleport:
+    permission: admin.teleport
+    aliases:
+      - tp
